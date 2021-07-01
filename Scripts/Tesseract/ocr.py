@@ -4,7 +4,7 @@ import os
 
 imgname=''
 imgextensions=['png','PNG','JPEG','jpeg','jpg','JPG']
-for file in os.listdir('./images/'):
+for file in os.listdir('./image/'):
     if file[-3:] in imgextensions:
         imgname=f'./image/{file}'
 
