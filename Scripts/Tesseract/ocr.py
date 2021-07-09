@@ -18,4 +18,7 @@ text=text.replace("’","'")
 text=text.replace("‘","'")
 print(f'\n\n{text}\n\n')
 
+with open('solve.c','w') as f:
+    f.write(text)
+
 os.remove(imgname)
