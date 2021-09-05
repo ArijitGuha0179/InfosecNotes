@@ -1,6 +1,6 @@
 This was a crypto challenge from GrabCON CTF 2021. This is the prompt:
 
-![](images/NotRSA.png)
+![](images/NotRSA1.png)
 
 This is the script we were provided in the challenge:
 
